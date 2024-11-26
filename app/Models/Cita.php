@@ -29,7 +29,7 @@ class Cita extends Model
     }
     public function consultorio()
     {
-        return $this->belongsTo(consultorio::class, 'id_consultorio');
+        return $this->belongsTo(Consultorio::class, 'id_consultorio');
     }
 
     public function estatus()
